@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Title style */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    margin-top: 20px; /* Add this to move the heading down */
+    text-align: center;
+    color: #333;
+}
+
+/* Style for the button */
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #27842a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px; /* Add this to move the button down */
+}
+
+button:hover {
+    background-color: #0a5a0e;
+}
+
+/* Style for the weather display */
+#weatherDisplay {
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#weatherDisplay p {
+    margin: 10px 10px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #4facfe, #ffff84);
+    text-align: center;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+}
+
+select { 
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+    margin: 10px 0;
+}
+
+.forecast-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px; /* Moves the image down */
+}
+
+.forecast-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px; /* Moves the image down */
+    min-height: 300px; /* Adjust this value to set a minimum height */
+    justify-content: center;
+}
+
+#forecastImage {
+    width: 100%;
+    max-width: 400px; /* Adjust for better responsiveness */
+    height: auto;
+    border-radius: 5px;
+    /* margin-top: 5px; Additional spacing from weather details */
+}

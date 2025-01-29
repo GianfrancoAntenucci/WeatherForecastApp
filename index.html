@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="master.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather Forecast App</h1>
+
+        <!-- Dropdown to select city -->
+        <label for="city">Select a City:</label>
+        <select id="city">
+            <option value="" disabled selected>Select a city</option>
+        </select>
+        <br><br>
+        
+        <!-- Button to get weather data -->
+        <button onclick="getWeatherByCity(document.getElementById('city').value)">Get Weather</button>
+
+        <br><br>
+        
+        <!-- Area to display weather data -->
+        <div id="weatherDisplay">
+            <p id="temperature">Temperature: </p>
+            <p id="cloudCover">Cloud Cover: </p>
+            <p id="weather">Weather: </p>
+        </div>
+
+        <h2>Graphical Weather Forecast</h2>
+        <button onclick="fetchGraphicalWeather()">Show Graphical Weather</button>
+        <div class="forecast-container">
+        <img id="forecastImage" src="https://static.vecteezy.com/system/resources/previews/026/571/030/non_2x/weather-icon-with-sun-and-cloud-on-transparent-background-free-png.png" 
+        alt="Weather Forecast Image" aria-placeholder=""/>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
