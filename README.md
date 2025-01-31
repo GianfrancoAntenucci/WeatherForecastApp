@@ -5,7 +5,7 @@ A simple weather forecast app built using HTML, JavaScript, and JSON, leveraging
 ## Project Link
 
 **Link title**: Weather Forecast App  
-**URL**: [Weather Forecast App](https://gianfrancoantenucci.github.io/WeatherForecastProject/)
+**URL**: [Weather Forecast App](https://gianfrancoantenucci.github.io/WeatherForecastApp/)
 
 ## Summary
 
